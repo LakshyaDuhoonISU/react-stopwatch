@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(102, 142, 150);
+}
+
+.time {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(90, 88, 88);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0);
+}
+
+.controls {
+  padding: 10px 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.start {
+  background-color: rgb(35, 194, 40);
+}
+
+.start:hover {
+  background-color: rgb(41, 239, 48);
+}
+
+.stop {
+  background-color: rgb(196, 40, 40);
+}
+
+.stop:hover {
+  background-color: rgb(226, 46, 46);
+}
+
+.reset {
+  background-color: rgb(191, 191, 30);
+}
+
+.reset:hover {
+  background-color: rgb(228, 228, 39);
+}
